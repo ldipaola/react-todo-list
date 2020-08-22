@@ -1,0 +1,63 @@
+body {
+    background-color: #F1F3F5;
+}
+button {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+input[type=text]{
+    display: block;
+    margin: 1em 0 1em 0;
+}
+
+input[type=checkbox]{
+    margin-right: 1em;
+}
+
+label {
+    font-family: 'Do Hyeon', sans-serif;
+    display: inline;
+}
+
+#todos-left {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+#header {
+    font-family: 'Do Hyeon', sans-serif;
+    margin-bottom: 1em;
+    font-size: 2em;    
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#card-body {
+    padding: 1em;
+   background-color: #FFFFFF;
+   width: 400px;
+}
+        
